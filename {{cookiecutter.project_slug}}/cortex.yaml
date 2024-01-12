@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
   title: {{ cookiecutter['_@cortex_inputs']['service_details']['name'] }}
-  x-cortex-tag: new-service
+  x-cortex-tag: {% cookiecutter['_@cortex_inputs']['service_details']['name'] | slugify %}
   x-cortex-type: component
   x-cortex-definition: {}
