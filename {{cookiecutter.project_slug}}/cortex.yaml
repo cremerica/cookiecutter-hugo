@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: newservice
+  title: {{ cookiecutter['_@cortex_inputs']['service_details']['name'] }}
   x-cortex-tag: new-service
   x-cortex-groups:
   - tier-0
