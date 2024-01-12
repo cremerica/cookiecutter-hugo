@@ -2,6 +2,7 @@ openapi: 3.0.1
 info:
   title: {{ cookiecutter['_@cortex_inputs']['service_details']['name'] }}
   x-cortex-tag: new-service
+  x-cortex-type: component
   x-cortex-groups:
   - tier-0
   x-cortex-owners:
