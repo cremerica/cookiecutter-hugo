@@ -1,4 +1,9 @@
 openapi: 3.0.1
 info:
+  title: newservice
+  x-cortex-tag: new-service
   x-cortex-groups:
-  - hugo
+  - tier-0
+  x-cortex-owners:
+  - type: EMAIL
+    email: fernando.cremer@cortex.io
