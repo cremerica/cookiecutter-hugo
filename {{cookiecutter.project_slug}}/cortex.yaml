@@ -4,3 +4,6 @@ info:
   x-cortex-tag: {{ cookiecutter['_@cortex_inputs']['service_details']['tag'] }}
   x-cortex-type: documentation
   x-cortex-definition: {}
+  x-cortex-git:
+    github:
+      repository: {{ cookiecutter['_@cortex_inputs']['git']['repository']['org']/cookiecutter['_@cortex_inputs']['git']['repository']['repoName'] }}
