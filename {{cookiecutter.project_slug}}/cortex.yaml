@@ -6,5 +6,4 @@ info:
   x-cortex-definition: {}
   x-cortex-git:
     github:
-      alias: {{ cookiecutter['_@cortex_inputs']['git']['repository']['alias']}}
       repository: {{ cookiecutter['_@cortex_inputs']['git']['repository']['org']}}/{{ cookiecutter['_@cortex_inputs']['git']['repository']['repoName'] }}
